@@ -1,0 +1,367 @@
+@font-face {
+  font-family: "Eye Catching Pro";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Eye Catching Pro"), url("EyeCatchingPro.woff") format("woff");
+}
+@font-face {
+    font-family: 'Poppins-ExtraBold';
+    src:url('Poppins-ExtraBold.ttf.woff') format('woff'),
+        url('Poppins-ExtraBold.ttf.svg#Poppins-ExtraBold') format('svg'),
+        url('Poppins-ExtraBold.ttf.eot'),
+        url('Poppins-ExtraBold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.commonheading {
+  /* Style for "BABYFRAME" */
+width: 428px;
+height: 34px;
+color: #000000;
+font-family: 'Poppins-ExtraBold';
+font-size: 45px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: center;
+text-transform: uppercase;
+/* Text style for "B, ABYFRAM" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+.commonheadingitalic {
+/* Style for "Hoe werkt" */
+width: 226px;
+height: 41px;
+color: #c13261;
+font-family: "Eye Catching Pro";
+font-size: 65px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: center;
+/* Text style for "Hoe werkt" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+.page1heading {
+  width: 546px;
+  height: 96px;
+  color: #000000;
+  font-family: 'Poppins-ExtraBold';
+  font-size: 50px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 59px;
+  text-align: left;
+  text-transform: uppercase;
+  /* Text style for "U, nieke f" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.commonbtn {
+  width: 220px;
+  height: 60px;
+  border-radius: 30px;
+  background: #c13261;
+  color: #ffffff;
+  font-family: 'Poppins-ExtraBold';
+  font-size: 20px;
+  font-weight: 700;
+
+  text-align: center;
+  text-transform: uppercase;
+  /* Text style for "Bekijk Fra" */
+  font-style: normal;
+  letter-spacing: 0.4px;
+  line-height: normal;
+  border: none;
+}
+
+.italictext {
+  height: 48px;
+  color: #c13261;
+  font-family: "Eye Catching";
+  font-size: 65px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+}
+
+.topmessagediv {
+  width: 100%;
+  height: 50px;
+  background-color: #76c0a9;
+}
+
+.topmessage {
+    font-family: 'Poppins-ExtraBold';
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+}
+
+.headingbtn {
+  position: absolute;
+  top: 1.4rem;
+  right: 0%;
+  transform: translate(-50%, -50%);
+}
+
+.pageone {
+  background-image: url("images/page\ 1.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 650px;
+  background-size: 100% 100%;
+}
+
+/* page2 */
+.pagetwowrap {
+  margin-left: auto;
+  margin-right: auto;
+  width: 955px;
+  margin-top: 83px;
+  height: 369px;
+  position: relative;
+  z-index: 10;
+  background-color: white;
+  margin-bottom: 115px;
+}
+.pagetwobtn {
+  width: 165px;
+  height: 165px;
+  box-shadow: 1px 2px 5px rgba(5, 6, 7, 0.15);
+  background-color: #f8f8f8;
+  border-radius: 50%;
+  border: none;
+}
+
+.pagethreewrap {
+  width: 1109px;
+  height: 533px;
+}
+.pagethree-title {
+  color: #000000;
+  font-family: 'Poppins-ExtraBold';
+  font-size: 40px;
+  font-weight: 700;
+}
+.pagethree-info {
+  color: #000000;
+  font-family: 'Poppins-ExtraBold';
+  font-size: 18px;
+  font-weight: 400;
+}
+/* sliderdiv */
+.sliderdiv {
+  width: 100%;
+  height: 1020px;
+  margin-top: 118px;
+  background-color: #f2e5df;
+  background-size: 100% 100%;
+}
+.sliderdivheadingdiv{
+    margin-top: 99px;
+}
+/* videoframediv */
+.videoframediv {
+  background-image: url("images/videopage-bg.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 650px;
+  background-size: 100% 100%;
+}
+.iframediv{
+    position: absolute;
+    margin-top: 250px;
+}
+.serviceimage {
+  border: none;
+}
+.servicewraper{
+    /* Style for "----------" */
+width: 1449px;
+height: 138px;
+opacity: 0.3;
+color: #000000;
+font-family: 'Poppins-ExtraBold';
+font-size: 18px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: left;
+text-transform: uppercase;
+/* Text style for "-, -------" */
+font-style: normal;
+letter-spacing: 0.36px;
+line-height: normal;
+}
+.servicetext{
+/* Style for "Uniek kraa" */
+width: 119px;
+height: 36px;
+color: #000000;
+font-family: 'Poppins-ExtraBold';
+font-size: 16px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 22px;
+text-align: left;
+/* Text style for "U, niek ," */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+.footer {
+  color: white;
+  width: 100%;
+  height: 351px;
+  background-color: #322e30;
+}
+
+/* cadrone */
+.cardone-div {
+  width: 447px;
+  height: 642px;
+  box-shadow: 0 0 25px rgba(5, 6, 7, 0.15);
+  background-color: #f8f8f8;
+  opacity: 0.8;
+}
+.cardone-img {
+  margin: 40px;
+  width: 349px;
+  height: 349px;
+}
+.cardone-title {
+  color: #000000;
+  font-family: Georgia;
+  font-size: 36px;
+}
+
+/* cardtwo */
+
+.card2-wrap {
+  width: 500px;
+  height: 533px;
+}
+.card2-maindiv {
+  background-image: url("images/pagethreechild-1bg.png");
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+.card2part-maindiv {
+  background-image: url("images/pagethreechild-2bg.png");
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+.cardtwo {
+  left: 97px;
+  right: 99px;
+  top: 76px;
+  padding: 27px 30px;
+  position: absolute;
+  width: 304px;
+  height: 457px;
+  box-shadow: 0 0 25px rgba(5, 6, 7, 0.15);
+  background-color: #f8f8f8;
+  opacity: 0.8;
+}
+.card2-img {
+  width: 244px;
+  height: 244px;
+}
+.pagetwoimg {
+  margin-top: 56px;
+
+  margin-bottom: 92px;
+}
+.pagetwo {
+  height: 20px;
+  color: #000000;
+  font-family: 'Poppins-ExtraBold';
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 26px;
+}
+/* cardthree */
+
+.cardthree-div {
+  width: 357px;
+  height: 600px;
+  box-shadow: 0 0 10px #05060726;
+  background-color: #ffffff;
+  padding-left: 29px;
+  padding-right: 28px;
+  padding-top: 28px;
+  padding-bottom: 37px;
+}
+.card3-img {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 28px;
+}
+
+.page3-title {
+  /* Style for "Weet jij o" */
+  width: 528px;
+  height: 144px;
+  color: #000000;
+  font-family: 'Poppins-ExtraBold';
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 50px;
+  text-align: left;
+  /* Text style for "W, eet jij" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.page3-info {
+  /* Style for "Ontzettend" */
+  /* Style for "Wij wel! B" */
+  width: 521px;
+  height: 162px;
+  color: #000000;
+  font-family: 'Poppins-ExtraBold';
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 32px;
+  text-align: left;
+  /* Text style for "Wij wel! B" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-top: 27px;
+  margin-bottom: 23px;
+}
