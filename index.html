@@ -15,74 +15,79 @@
     referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet"
+    href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css" />
+  <link rel="stylesheet"
+    href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css" />
   <title>Baby Frame</title>
 </head>
 
 <body>
-  <div class="
-        row
-        topmessagediv
-        d-flex
-        justify-content-center
-        align-items-center
-        mx-0
-      ">
-    <div class="col-11 topmessage">
-      FREE DELIEVERY FOR ALL ORDER ABOVE €50!
-    </div>
-    <div class="col-1">
-      <button class="headingbtn"style="cursor:pointer;" onclick="closeHeader()">X</button>
+  <div class="container-fluid">
+    <div id="topmessagediv" class="
+    row
+    topmessagediv">
+      <div class="col-11 topmessage">
+        FREE DELIEVERY FOR ALL ORDER ABOVE €50!
+      </div>
+      <div class="col-1 headingbtndiv">
+        <button class="headingbtn" style="cursor:pointer;" onclick="closeHeader()">X</button>
+      </div>
     </div>
   </div>
 
-  <div class="container-fluid pageone p-0">
-  <div class="row">
-<div class="col">
-<!-- desktop nav start -->
-<!-- <div class="topnav">
-  <a href="#FAQ">FAQ</a>
-  <a href="#contact">CONTACT</a>
-  <a href="#over">OVER ONS</a>
-  <a href="#MAAKJEFRAME">MAAK JE FRAME</a>
-  <a href="#Home" class="active">HOME</a>
-  <a href="javascript:void(0);" style="font-size:0.9357rem;" class="icon" onclick="myFunction()">&#9776;</a>
-</div> -->
-<!-- desktop nav end -->
-  <!-- mobile nav start -->
 
-<div id="mySidenav" class="sidenav">
-<a href="#FAQ">FAQ</a>
+  <div class="container-fluid pageone">
+    <!-- mobile nav start -->
+    <div class="row">
+      <div class="col">
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#Home">HOME</a>
+          <a href="#MAAKJEFRAME">MAAK JE FRAME</a>
+          <a href="#over">OVER ONS</a>
+          <a href="#contact">CONTACT</a>
+          <a href="#FAQ">FAQ</a>
+        </div>
+        <div class="mobilenavbtn d-flex justify-content-between align-items-center">
+          <span id="mobilenavbtn" style="font-size:30px;cursor:pointer;" onclick="openNav()"><i
+              class="fas fa-bars"></i></span>
+          <span id="mobilenavbtn"><img class="centertopnav" src="images/babyframe.png" alt="logo"></span>
+        </div>
+
+        <div class="container pageoneheaddiv">
+          <div class="mobilepage1heading">
+            <div class="commonheadingitalic1 pagetwowraptext p-0">
+              <span>Babyframe us enn enicef concept!</span>
+            </div>
+            <div class="commonheading1 p-0">
+              <span class="page1heading">UNIEKE FRAME VOOR <br> OP JOUW KAMER</spam>
+            </div>
+          </div>
+        </div>
+
+        <!-- mobile nav end -->
+      </div>
+    </div>
+    <div class="container-fluid">
+      <!-- desktop nav start -->
+      <div class="topnav">
+        <a href="#FAQ">FAQ</a>
         <a href="#contact">CONTACT</a>
         <a href="#over">OVER ONS</a>
         <a href="#MAAKJEFRAME">MAAK JE FRAME</a>
         <a href="#Home" class="active">HOME</a>
         <a href="javascript:void(0);" style="font-size:0.9357rem;" class="icon" onclick="myFunction()">&#9776;</a>
       </div>
-<div class="mobilenavbtn d-flex justify-content-between align-items-center">
-  <span id="mobilenavbtn" style="font-size:30px;cursor:pointer;" onclick="openNav()"><i class="fas fa-bars"></i></span>
-  <span id="mobilenavbtn"><img class="centertopnav" src="images/babyframe.png" alt="logo"></span>
-</div>
+      <!-- desktop nav end -->
 
-<div id="mobilepage1heading"> 
-    <div class="text-center commonheadingitalic pagetwowraptext p-0">
-      <span>Babyframe us enn enicef concept!</span>
     </div>
-    <div class="commonheading text-center p-0">
-      <span class="page1heading">UNIEKE FRAME VOOR <br> OP JOUW KAMER</spam>
-    </div>
-</div>
-<!-- mobile nav end -->
-</div>
-  </div>
-  <div>
 
   </div>
-
-    </div>
 
 
   <!-- 2nd page start -->
-  <div class="container-fluid pagetwowrap p-0">
+  <div class="container-fluid pagetwowrap">
     <div class="row headingpad">
       <div class="col-12 commonheading text-center p-0">
         <span>HOW WERKT HET?</span>
@@ -91,7 +96,7 @@
         <span> We leveren binnen 2 dagen</span>
       </div>
     </div>
-    <div class="row pagetwoimg p-0">
+    <div class="row pagetwoimg">
       <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xxl-4 p-0">
         <div class="d-flex flex-column justify-content-center align-items-center">
           <div class="page2pad">
@@ -127,22 +132,20 @@
 
   <!-- 2nd page end -->
   <!-- 3rd page start -->
-  <div class="container-fluid p-0">
+  <div class="container-fluid">
     <div class="
           row
           d-flex
           justify-content-center
           align-items-center
-          pagethree-wrap
+         
           page3margin
-          p-0
         ">
       <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xxl-5 p-0">
         <div class="">
           <img class="img-fluid" src="img/page 3 1.png" alt="" />
         </div>
 
-        <!-- class="img-fluid" -->
       </div>
       <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xxl-5 p-1 p-0">
         <div class="pagethree-title word-wrap">
@@ -173,9 +176,7 @@
           d-flex
           justify-content-center
           align-items-center
-          pagethree-wrap
           page3margin
-          p-0
         ">
       <div id="orderup" class="col-12 col-sm-12 col-md-5 col-lg-5 col-xxl-5 p-1 p-0">
         <div class="pagethree-title word-wrap">
@@ -186,7 +187,7 @@
           <span>
             Wij printen uw unieke template via ons gepatenteerde
             laserprinter op plexiglas. Zo he een uniek en prachtig
-            cadeau voor een unieke gelegenheid!<br/></span><br />
+            cadeau voor een unieke gelegenheid!<br /></span><br />
           <span>
             Een BabyFrame kun je neerzetten, of aan een muur hangen
             BabyFrame is het perfecte cadeau en brengt jouw liefde of
@@ -211,175 +212,42 @@
     d-flex
     justify-content-center
     align-items-center
-    pagethree-wrap
     page3margin
-    p-0
   ">
-  <div id="orderdown"  class="col-12 col-sm-12 col-md-5 col-lg-5 col-xxl-5 p-0">
-    <div class="">
-      <img class="img-fluid" src="img/page3 2.png" alt="" />
-    </div>
-  </div>
-<div id="orderdown"  class="col-12 col-sm-12 col-md-5 col-lg-5 col-xxl-5 p-1 p-0">
-  <div class="pagethree-title word-wrap">
-    <span>Handgemaakt in
-      Nederland</span>
-  </div>
-  <div class="pagethree-info mt-3 word-wrap">
-    <span>
-      Wij printen uw unieke template via ons gepatenteerde
-      laserprinter op plexiglas. Zo he een uniek en prachtig
-      cadeau voor een unieke gelegenheid!<br/></span><br />
-    <span>
-      Een BabyFrame kun je neerzetten, of aan een muur hangen
-      BabyFrame is het perfecte cadeau en brengt jouw liefde of
-      vriendschap tot leven.
-    </span>
-  </div>
-  <div class="text-center">
-    <button class="commonbtn" style="margin-top: 2.8125rem">
-      BEKIJK FRAME
-    </button>
-  </div>
-</div>
+      <div id="orderdown" class="col-12 col-sm-12 col-md-5 col-lg-5 col-xxl-5 p-0">
+        <div class="">
+          <img class="img-fluid" src="img/page3 2.png" alt="" />
+        </div>
+      </div>
+      <div id="orderdown" class="col-12 col-sm-12 col-md-5 col-lg-5 col-xxl-5 p-1 p-0">
+        <div class="pagethree-title word-wrap">
+          <span>Handgemaakt in
+            Nederland</span>
+        </div>
+        <div class="pagethree-info mt-3 word-wrap">
+          <span>
+            Wij printen uw unieke template via ons gepatenteerde
+            laserprinter op plexiglas. Zo he een uniek en prachtig
+            cadeau voor een unieke gelegenheid!<br /></span><br />
+          <span>
+            Een BabyFrame kun je neerzetten, of aan een muur hangen
+            BabyFrame is het perfecte cadeau en brengt jouw liefde of
+            vriendschap tot leven.
+          </span>
+        </div>
+        <div class="text-center">
+          <button class="commonbtn" style="margin-top: 2.8125rem">
+            BEKIJK FRAME
+          </button>
+        </div>
+      </div>
 
-</div>
+    </div>
 
 
   </div>
   <!-- 3rd page end -->
   <!-- slider page-4 start-->
-
-  <!-- <div class="container-fluid sliderdiv">
-                <div class="row ">
-                    <div class="col-12 commonheading text-center sliderdivheadingdiv p-0">
-                        <span>WAT ONZE KLANTEN ZEGGEN</span>
-                    </div>
-                    <div class="col-12 text-center commonheadingitalic pagetwowraptext p-0">
-                        <span>Reviews</span>
-                    </div>
-
-  
-
-                    <div class="col-10">
-
-                        <div class="owl-carousel owl-theme">
-                            <div class="item">
-                                <div class="cardthree-div">
-                                    <div class="card3-img">
-                                        <img src="images/sliderchild-1.png" alt="">
-                                    </div>
-                                    <div>
-                                        <div class="page3-title"><span>Goeie verpakking!</span></div>
-                                        <div class="page3-info"><span>Ontzettend blij met mijn bestelling! <br>
-                                                Super snelle levering en door de <br>
-                                                goeie verpakking heel bij mij thuis
-                                                <br> aangekomen!!</span></div>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div><img src="images/Michelle_H.png" alt="Michelle"></div>
-                                            <div><img src="images/stars.png" alt="stars"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="cardthree-div">
-                                    <div class="card3-img">
-                                        <img src="images/sliderchild-2.png" alt="">
-                                    </div>
-                                    <div>
-                                        <div class="page3-title"><span>Goed bereikbaar</span></div>
-                                        <div class="page3-info"><span>Kwaliteit en service is top! Ook <br> goed
-                                                bereikbaar voor eventuele
-                                                <br> vragen.
-                                                30x40 formaat mooi om <br> aan de muur te hangen! </span></div>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div><img src="images/Wesley_B.png" alt="Michelle"></div>
-                                            <div><img src="images/stars.png" alt="stars"></div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="item">
-                                <div class="cardthree-div">
-                                    <div class="card3-img">
-                                        <img src="images/sliderchild-3.png" alt="">
-                                    </div>
-                                    <div>
-                                        <div class="page3-title"><span>Hele goede kwaliteit</span></div>
-                                        <div class="page3-info"><span>Heel goede kwaliteit! De service <br> perfect! Ook
-                                                levering was
-                                                snel.<br> Zeker aan
-                                                te raden voor je zelf of als <br> origineel cadeau'tje :)</span></div>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div><img src="images/Jodie_S.png" alt="Michelle"></div>
-                                            <div><img src="images/stars.png" alt="stars"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="cardthree-div">
-                                    <div class="card3-img">
-                                        <img src="images/sliderchild-1.png" alt="">
-                                    </div>
-                                    <div>
-                                        <div class="page3-title"><span>Goeie verpakking!</span></div>
-                                        <div class="page3-info"><span>Ontzettend blij met mijn bestelling! <br>
-                                                Super snelle levering en door de <br>
-                                                goeie verpakking heel bij mij thuis
-                                                <br> aangekomen!!</span></div>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div><img src="images/Michelle_H.png" alt="Michelle"></div>
-                                            <div><img src="images/stars.png" alt="stars"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="cardthree-div">
-                                    <div class="card3-img">
-                                        <img src="images/sliderchild-2.png" alt="">
-                                    </div>
-                                    <div>
-                                        <div class="page3-title"><span>Goed bereikbaar</span></div>
-                                        <div class="page3-info"><span>Kwaliteit en service is top! Ook <br> goed
-                                                bereikbaar voor eventuele
-                                                <br> vragen.
-                                                30x40 formaat mooi om <br> aan de muur te hangen! </span></div>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div><img src="images/Wesley_B.png" alt="Michelle"></div>
-                                            <div><img src="images/stars.png" alt="stars"></div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="item">
-                                <div class="cardthree-div">
-                                    <div class="card3-img">
-                                        <img src="images/sliderchild-3.png" alt="">
-                                    </div>
-                                    <div>
-                                        <div class="page3-title"><span>Hele goede kwaliteit</span></div>
-                                        <div class="page3-info"><span>Heel goede kwaliteit! De service <br> perfect! Ook
-                                                levering was
-                                                snel.<br> Zeker aan
-                                                te raden voor je zelf of als <br> origineel cadeau'tje :)</span></div>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div><img src="images/Jodie_S.png" alt="Michelle"></div>
-                                            <div><img src="images/stars.png" alt="stars"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-            </div> -->
-
   <div class="sliderdiv">
     <div class="">
       <div class="d-flex flex-column justify-content-center align-items-center">
@@ -540,7 +408,7 @@
 
   <!-- video frame start -->
 
-  <div class="videoframediv container-fluid p-0 m-0">
+  <div class="videoframediv container-fluid">
     <!-- <img class="img-fluid"src="images/videopage-bg.png" alt=""> -->
     <div class="row headingpad">
       <div class="col-12 commonheading text-center p-0">
@@ -559,32 +427,39 @@
     </div>
   </div>
 
-  <div class="row">
-    <div class=" col-12 col-sm-12 col-md- col-lg- col-xxl-col-10">
-      <h5 class="viedogap1 word-wrap text-center">
-        Een cadeautje krijgen of voor jezelf kopen is misschien wel een van de leukste
-        dingen die er is. Maar, hoe combineer je dit met jouw favoriete nummer of Moment?
-      </h5> <br>
-    </div>
-    <div class="col text-center">
-      <span class="viedogap2 word-wrap">Wij zijn BabyFrame. Een team van drie gedreven jonge ondernemers die hier - als een van de eerste in Europa -
-        een oplossing
-        voor hebben bedacht: Kies jouw favoriete moment of maak een eigen frame die het perfecte moment samen met je
-        geliefde
-        vastlegt. Laser geprint op hoogwaardig plexiglas om de hoogste kwaliteit te garanderen. Iedere plaat is met zorg -
-        en
-        handgemaakt in Nederland, dus korte lijntjes en snelle antwoorden op vragen zijn niet weg te denken uit onze
-        bedrijfsfilosofie.
-      </span>
-      <div class="vidbtn">
-        <button class="commonbtn"> CONTACT</button>
+  <div class="container">
+    <div class="row">
+      <div class=" col-12 col-sm-12 col-md- col-lg- col-xxl-col-10">
+        <h5 class="viedogap1 word-wrap text-center">
+          Een cadeautje krijgen of voor jezelf kopen is misschien wel een van de leukste
+          dingen die er is. Maar, hoe combineer je dit met jouw favoriete nummer of Moment?
+        </h5> <br>
+      </div>
+      <div class="col text-center">
+        <span class="viedogap2 word-wrap">Wij zijn BabyFrame. Een team van drie gedreven jonge ondernemers die hier -
+          als
+          een van de eerste in Europa -
+          een oplossing
+          voor hebben bedacht: Kies jouw favoriete moment of maak een eigen frame die het perfecte moment samen met je
+          geliefde
+          vastlegt. Laser geprint op hoogwaardig plexiglas om de hoogste kwaliteit te garanderen. Iedere plaat is met
+          zorg
+          -
+          en
+          handgemaakt in Nederland, dus korte lijntjes en snelle antwoorden op vragen zijn niet weg te denken uit onze
+          bedrijfsfilosofie.
+        </span>
+        <div class="vidbtn">
+          <button class="commonbtn"> CONTACT</button>
+        </div>
       </div>
     </div>
   </div>
+
   <!-- video frame end -->
 
   <!-- service card start -->
-  <div class="container-fluid servicewrap p-0">
+  <div class="container-fluid servicewrap">
     <div class="row">
       <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xxl-3">
         <div class="flex">
@@ -668,12 +543,12 @@
         </div>
         <ul class="list">
           <li>BabyFrameis een</li>
-          <li>handelsnaam van: Muurmap B.V</li>
+          <li>handelsnaam van: Muurmap B.V</li>F
           <li>KvK: 7U70216</li>
           <li>BTW: NL858842452B01</li>
         </ul>
       </div>
-      <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xxl-3 mt-4">
+      <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xxl-3 mt-4 float-right">
         <div>
           <h6>SOCIAL MEDIA</h6>
         </div>
@@ -689,12 +564,12 @@
 
   <script>
     function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-  }
-  
-  function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-  }
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
   </script>
 
   <script>
@@ -706,7 +581,7 @@
         nav: true,
         navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
 
-        dots: false,
+        dots: true,
         autoplay: true,
         autoplayTimeout: 4500,
         responsive: {
@@ -722,22 +597,22 @@
         }
       })
     });
-
   </script>
-  
-<script>
-  function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
 
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
 
-function closeHeader() {
-  document.getElementById("headingbtn").style.display ="none";
-}
-</script>
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+
+    function closeHeader() {
+      var x = document.querySelector(".topmessagediv");
+      x.style.display = "none"
+    }
+  </script>
 
 </body>
 
